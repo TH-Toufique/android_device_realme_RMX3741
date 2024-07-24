@@ -1,6 +1,9 @@
 DEVICE_PATH := device/realme/RMX3741
 KERNEL_PATH := device/realme/RMX3741/prebuilt
 
+# Broken
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # A/B
 AB_OTA_UPDATER := true
 BOARD_USES_RECOVERY_AS_BOOT := true
