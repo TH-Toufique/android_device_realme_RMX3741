@@ -1,6 +1,20 @@
 DEVICE_PATH := device/realme/RMX3741
 KERNEL_PATH := device/realme/RMX3741/prebuilt
 
+# A/B
+AB_OTA_UPDATER := true
+BOARD_USES_RECOVERY_AS_BOOT := true
+
+AB_OTA_PARTITIONS := \
+    boot \
+    dtbo \
+    system \
+    product \
+    vendor \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
