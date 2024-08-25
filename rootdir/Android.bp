@@ -1,0 +1,11 @@
+//
+// Copyright (C) 2022 ArrowOS
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "fstab.mt6877",
+    src: "etc/fstab.mt6877",
+    ramdisk_available: true,
+}

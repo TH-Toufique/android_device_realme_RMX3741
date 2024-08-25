@@ -12,6 +12,7 @@ AB_OTA_PARTITIONS := \
     boot \
     dtbo \
     system \
+	system_ext \
     product \
     vendor \
     vbmeta \
@@ -73,7 +74,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbo.img
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_SUPER_PARTITION_SIZE := 11811160064
 BOARD_SUPER_PARTITION_GROUPS := oplus_dynamic_partitions
-BOARD_OPLUS_DYNAMIC_PARTITIONS_PARTITION_LIST := system product vendor
+BOARD_OPLUS_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext product vendor
 BOARD_OPLUS_DYNAMIC_PARTITIONS_SIZE := 11806965760
 
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4

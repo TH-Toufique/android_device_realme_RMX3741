@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Root Dir
+PRODUCT_PACKAGES += \
+    fstab.mt6877.ramdisk
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 33
 
